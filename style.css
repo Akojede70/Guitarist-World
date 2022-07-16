@@ -1,0 +1,268 @@
+/* 
+ Author: Akojede Peter
+ Date: 7/17/2022
+*/
+
+
+/* navbar  */
+.menu {
+    background: #d122e3;
+}
+
+li{
+    padding: 0 0.7rem;
+}
+
+a {
+    color: white!important; /* !important makes the color comes out*/
+   text-transform: capitalize;
+   font-weight: 600;
+}
+
+.description {
+    font-family: sans-serif;
+}
+
+/* #B86EF5 */
+
+/* Heading Line companies section */
+.heading-line::before {
+    content:"";
+    width: 10rem;
+    height: 0.1rem;
+    display: block;
+    margin: 0 auto;
+    background-color: #d122e3;
+}
+ 
+.heading-line::after {
+    content: "";
+    width: 2rem;
+    padding-top: 0.5rem;
+    height: 0.2rem;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    background-color: #d122e3;
+}
+
+/* Our Services*/
+.display-3 {
+    font-family: 'poppins' sans-serif;
+}
+
+.border-right {
+    border-right: 0.1rem solid gray;
+    height: 100%;
+}
+
+.services-content {
+    position: relative;
+    padding: 1rem 0;
+}
+
+.tim{
+    color:#d122e3;
+    font-weight: 600;
+}
+ 
+.don {
+    color:#d122e3;
+}
+
+.tri {
+    line-height: 1.8rem;
+}
+
+/* Testimonials */
+.testimonials{
+    position: relative;
+    background-color: #d122e3;
+}
+
+.card {
+    background-color: rgb(236, 223, 223);
+    padding: 2rem 1.25rem;
+    text-align: center;
+}
+.bi-quote {
+    background-color: black;
+    
+}
+
+.bi-star-fill {
+    background-color: black;
+    
+} 
+
+.ter {
+    width: 11%;
+    height: 5%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    /* border: 0.225rem solid black;  */
+}
+.name {
+    padding-top: 4rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-weight: 500;
+    color: white;
+}
+/* Bass Man per 2 */
+.per {
+    width: 20%;
+    height: 5%;
+    position: absolute;
+    transform: translate(-50%);
+    /* border: 0.255rem solid black; */
+}
+
+/* String Mmi ret  */
+.ret {
+    width: 14%;
+    position: absolute;
+    left: 50%;
+    transform:translate(-50%);
+}
+
+/* Bass Guitar Head tip  */
+.tip {
+    width: 13%;
+    position:absolute;
+    transform:translate(-50%)
+}
+/*  lay  */
+.lay {
+    width: 24%;
+    position: absolute;
+    transform:translate(-50%)
+}
+
+
+/* portfolio */
+.portfolio {
+    padding: 4rem 0;
+}
+
+.portfolio-box{
+    position: relative;
+    width: 100%;
+    height: 18.5rem;
+    overflow: hidden;
+    margin-bottom: 2rem;
+    border-top: 0.5rem solid purple;
+    /* transition-duration: 1000ms; */
+    /* transition-property: all; */
+    /* transform: scale(1.5) */
+}
+
+.pcs{
+    width: 100%;
+    height: 100%; 
+}
+
+.portfolio-info {
+    background-color: #d122e3;
+    opacity: 50%; 
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.caption {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    padding: 30%;
+    font-weight: bold;
+}
+
+/* get started */
+.get-started {
+    padding: 4rem 0;
+    background-color: rgb(246, 216, 216);
+}
+
+.gradient {
+    background:  #b40ac6;
+}
+
+.cta-info {
+    padding: 3rem;
+    margin: 1rem 0; 
+}
+
+.cta-info-list {
+    position: relative;
+    list-style-type: none; 
+}
+
+.bi-check-lg::before{
+    margin-right: 0.3rem;
+    font-size: 1.0rem;
+
+}
+
+.form {
+    padding: 3rem;
+}
+
+.kit {
+    color:#d122e3;
+}
+
+/* style the contact vox */
+.foot {
+    background-color:black;
+}
+
+.info {
+    padding: 0.4rem;
+}
+.title {
+    color: white;
+    text-decoration: none;
+    font-size: 1.0rem; 
+}
+
+.subtitle{
+    font-size: 1rem;
+    color: gray;
+    text-decoration: none;
+}
+
+/* style the media content */
+
+.con {
+    margin-left: 1rem;
+}
+
+/* style the company info */
+
+.kop{
+    display: block;
+    list-style-type: none;
+    position: relative;
+    text-decoration: none;
+    margin-bottom: 0.4rem;
+}
+
+/* Style the copyright  */
+.copyright {
+    font-weight: 400;
+    text-decoration: none;
+}
+
+/* style the back to top */
+.bi-chevron-up{
+    right: 2rem;
+    width: 3rem; 
+    height: 3rem;
+    bottom: 1.875rem;
+    position: fixed;  
+    background-color: #b40ac6; 
+    padding-left: 0.9rem;
+}
